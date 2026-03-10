@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.*
+
+# Bundler
+/.bundle/
+vendor/bundle
+
+# Gem build artifacts
+*.gem
+pkg/
+
+# Coverage
+/coverage/
+
+# YARD docs
+/doc/
+/.yardoc/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~

@@ -1,0 +1,58 @@
+# frozen_string_literal: true
+
+plugins:
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.1
+  Exclude:
+    - "*.gemspec"
+    - "Gemfile"
+    - "vendor/**/*"
+    - "examples/**/*"
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/AbcSize:
+  Max: 35
+
+Metrics/ClassLength:
+  Max: 150
+
+Metrics/CyclomaticComplexity:
+  Max: 17
+
+Metrics/PerceivedComplexity:
+  Max: 17
+
+Metrics/ParameterLists:
+  Max: 7
+
+Naming/PredicatePrefix:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 180
+  Exclude:
+    - "spec/**/*"
+
+RSpec/MultipleExpectations:
+  Max: 6
+
+RSpec/ExampleLength:
+  Max: 30
+
+RSpec/MultipleDescribes:
+  Enabled: false
+
+RSpec/ExpectActual:
+  Enabled: false
