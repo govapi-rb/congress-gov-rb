@@ -151,6 +151,10 @@ export CONGRESS_GOV_API_KEY="your_real_key"
 VCR_RECORD=new_episodes bundle exec rspec
 ```
 
+## Support
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/omgjack)
+
 ## License
 
 MIT License. See [LICENSE.txt](LICENSE.txt).
